@@ -30,7 +30,6 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     background-color: #DEEFE7;
     color: black;
     height: 525px;
@@ -41,6 +40,7 @@ section#login {
     display: block;
     transition: width .5s heigth .5s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
 }
 
 section#login > div#imagem {
@@ -111,6 +111,7 @@ form > a.botao > i {
 
 div.campo {
     background-color: #159A9C;
+    border: 2px solid #159A9C;
     width: 100%;
     display: block;
     height: 40px;
@@ -120,4 +121,21 @@ div.campo {
 
 .campo > label {
     display: none;
+}
+
+.campo > i {
+  color: white;
+  font-size: 2em;
+  width: 40px;
+  padding: 5px; 
+}
+
+.campo > input {
+   font-size: 1em;
+    width:calc(100% - 44px) ;
+    height: 100%;
+    border: 0px;
+    border-radius: 5px;
+    padding: 4px;
+    transform: translateY(-14px);
 }
