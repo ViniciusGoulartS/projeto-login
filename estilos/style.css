@@ -54,9 +54,14 @@ section#login > div#imagem {
 }
 
 #formulario > h1 {
-    color: black;
     text-align: center;
-    font-size: 24px;
+    margin-bottom: 10px;
+    font-size: 2em;
+    padding: 10px;
+}
+
+#formulario > p {
+    font-size: 0.9em;
     padding: 10px;
 }
 
@@ -82,13 +87,4 @@ section#login > div#imagem {
     margin: 5px;
     border-radius: 5px;
     
-}
-
-#esenha {
-    background-color: #002333;
-    color: white;
-    width: 225px;
-    padding: 5px;
-    margin: 5px;
-    border-radius: 5px;
 }
